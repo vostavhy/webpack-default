@@ -2,7 +2,7 @@
   "dependencies": {
     "create-rss-app": "^0.2.4"
   },
-  "name": "christmas-task",
+  "name": "project-name",
   "scripts": {
     "start": "rss-scripts start -ts",
     "build": "rss-scripts build -ts",
