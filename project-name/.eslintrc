@@ -12,11 +12,11 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/recommended"
+    "prettier"
   ],
   "rules": {
     "@typescript-eslint/no-var-requires": 0,
-    "prettier/prettier": 2,
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "no-useless-escape": 0,
     "no-console": 0,
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
